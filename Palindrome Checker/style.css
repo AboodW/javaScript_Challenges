@@ -1,0 +1,83 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlebanner {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.inputbanner {
+  padding: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.btnbanner {
+  padding: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+
+#check {
+  background-color: #333;
+  color: #fff;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#check:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.resultbanner {
+  /* padding: 10px; */
+  text-align: center;
+  max-width: 100%;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.palindrom {
+  color: rgb(0, 255, 0);
+}
+
+.notpalindrom {
+  color: rgb(255, 0, 0);
+}
+
+#result {
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  max-width: 100%;
+}
+.giveborder {
+  border: 5px solid #333;
+}
